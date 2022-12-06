@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Century Gothic", sans-serif;
+ }
+ 
+ .navlist{
+    width: 100%;
+    position: fixed;
+    padding: 5px 10%;
+    background-color: #110e2bbb;
+ }
+ .navlist ul{
+   tab-size: 16;
+    display: flex;
+    list-style: none;
+ }
+ .navlist ul li:first-child{
+    flex: 1;
+    color: #ffffff;
+ }
+ .navlist ul li h4{
+    font-family: serif;
+ }
+ .navlist ul a{
+    display: block;
+    margin-left: 100px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    text-decoration: none;
+ }
+ .navlist ul a:hover{
+    color: #ff8800;
+ }
+ 
+ 
+ 
+ .main-box{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(#000000bb, #000000bb), url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30vh;
+ }
+ 
+ .main-box h1{
+    word-spacing: 8px;
+    margin-bottom: 15px;
+    font-family: serif;
+    text-align: right;
+ }
+ .main-box a{
+   color:pink;
+   text-align: left;
+ }
+ .main-box p{
+    font-family: "Century Gothic", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    margin-bottom: 40px;
+    text-align: right;
+ }
+ .main-box button{
+    text-align: right;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    border: 1px solid #ff8800;
+    color: #ffffff;
+   
+ }
+ .main-box button:hover{
+    background: #ff8800;
+    text-align: right;
+    
+ }
+
+ .container{
+   padding: 100px;
+   background-color: black;
+   border-radius: 10px;
+ }
+ .container.ash{
+   padding: 1200px;
+ }
+ .box {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .search{
+   width: 330px;
+   float: left;
+   margin-left: 270px;
+ }
+.anujeet pre{
+   white-space: 20px;
+
+}
